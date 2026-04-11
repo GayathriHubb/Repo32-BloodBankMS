@@ -1,4 +1,4 @@
-📋 Project Overview
+📋 Project Overview:
 This is a C# Windows Forms Desktop Application designed to manage blood bank operations efficiently. The system handles donor information, blood stock management, and related transactions for blood banks.
 
 Repository: GayathriHubb/Repo32-BloodBankMS |
