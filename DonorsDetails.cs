@@ -53,8 +53,10 @@ namespace BloodBankMS
 
         private void BtnPrint_Click(object sender, EventArgs e)
         {
+           
            PageSD1.ShowDialog();
            PPD1.ShowDialog();
+           
         }
 
         private void PD1_PrintPage(object sender, PrintPageEventArgs e)
@@ -64,7 +66,7 @@ namespace BloodBankMS
 
             float centrex = (e.PageBounds.Width - e.Graphics.MeasureString("Donors Details", new Font("Segoe UI", 12, FontStyle.Bold)).Width) / 2;
             e.Graphics.DrawString("Donors Details", new Font("Segoe UI", 12, FontStyle.Bold), Brushes.Navy, centrex, 20);
-            e.Graphics.DrawImage(bmp, 10, 80);    
+            e.Graphics.DrawImage(bmp, (e.PageBounds.Width - DGVDonors.Width)/2, 80);    
         }
 
         private void FormDonorsDetails_SizeChanged(object sender, EventArgs e)
@@ -80,6 +82,9 @@ namespace BloodBankMS
 
         }
 
-        
+        private void DGVDonors_SelectionChanged(object sender, EventArgs e)
+        {
+            DGVDonors.ClearSelection();
+        }
     }
 }

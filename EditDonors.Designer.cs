@@ -343,15 +343,15 @@
             this.BtnSearch.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnSearch.Font = new System.Drawing.Font("Faustina", 12F, System.Drawing.FontStyle.Bold);
             this.BtnSearch.ForeColor = System.Drawing.Color.Sienna;
+            this.BtnSearch.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BtnSearch.ImageIndex = 2;
             this.BtnSearch.ImageList = this.ImageList1;
             this.BtnSearch.Location = new System.Drawing.Point(556, 95);
             this.BtnSearch.Name = "BtnSearch";
-            this.BtnSearch.Size = new System.Drawing.Size(150, 42);
+            this.BtnSearch.Size = new System.Drawing.Size(140, 42);
             this.BtnSearch.TabIndex = 1;
             this.BtnSearch.Text = "Search";
             this.BtnSearch.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.BtnSearch.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.BtnSearch.UseVisualStyleBackColor = false;
             this.BtnSearch.Click += new System.EventHandler(this.BtnSearch_Click);
             // 

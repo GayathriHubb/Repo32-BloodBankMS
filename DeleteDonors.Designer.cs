@@ -64,7 +64,7 @@
             this.NUDDonorId.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.NUDDonorId.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.NUDDonorId.ForeColor = System.Drawing.Color.Navy;
-            this.NUDDonorId.Location = new System.Drawing.Point(325, 99);
+            this.NUDDonorId.Location = new System.Drawing.Point(332, 95);
             this.NUDDonorId.Maximum = new decimal(new int[] {
             100000,
             0,
@@ -79,7 +79,7 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Faustina", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(221, 106);
+            this.label1.Location = new System.Drawing.Point(228, 102);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(89, 25);
             this.label1.TabIndex = 82;
@@ -94,15 +94,15 @@
             this.BtnSearch.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnSearch.Font = new System.Drawing.Font("Faustina", 12F, System.Drawing.FontStyle.Bold);
             this.BtnSearch.ForeColor = System.Drawing.Color.Sienna;
+            this.BtnSearch.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BtnSearch.ImageIndex = 2;
             this.BtnSearch.ImageList = this.ImageList1;
-            this.BtnSearch.Location = new System.Drawing.Point(554, 97);
+            this.BtnSearch.Location = new System.Drawing.Point(561, 93);
             this.BtnSearch.Name = "BtnSearch";
-            this.BtnSearch.Size = new System.Drawing.Size(150, 42);
+            this.BtnSearch.Size = new System.Drawing.Size(140, 42);
             this.BtnSearch.TabIndex = 1;
             this.BtnSearch.Text = "Search";
             this.BtnSearch.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.BtnSearch.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.BtnSearch.UseVisualStyleBackColor = false;
             this.BtnSearch.Click += new System.EventHandler(this.BtnSearch_Click);
             // 
@@ -133,7 +133,7 @@
             this.BtnClear.ForeColor = System.Drawing.Color.Sienna;
             this.BtnClear.ImageIndex = 1;
             this.BtnClear.ImageList = this.ImageList1;
-            this.BtnClear.Location = new System.Drawing.Point(482, 576);
+            this.BtnClear.Location = new System.Drawing.Point(494, 576);
             this.BtnClear.Name = "BtnClear";
             this.BtnClear.Size = new System.Drawing.Size(150, 47);
             this.BtnClear.TabIndex = 4;
@@ -145,6 +145,7 @@
             // 
             // DTPDOB
             // 
+            this.DTPDOB.Enabled = false;
             this.DTPDOB.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DTPDOB.Location = new System.Drawing.Point(582, 197);
             this.DTPDOB.Name = "DTPDOB";
@@ -155,6 +156,7 @@
             // 
             this.CmbBxBloodGroup.Cursor = System.Windows.Forms.Cursors.Hand;
             this.CmbBxBloodGroup.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.CmbBxBloodGroup.Enabled = false;
             this.CmbBxBloodGroup.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.CmbBxBloodGroup.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CmbBxBloodGroup.FormattingEnabled = true;
@@ -176,6 +178,7 @@
             // 
             this.CmbBxGender.Cursor = System.Windows.Forms.Cursors.Hand;
             this.CmbBxGender.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.CmbBxGender.Enabled = false;
             this.CmbBxGender.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.CmbBxGender.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CmbBxGender.FormattingEnabled = true;
@@ -191,6 +194,7 @@
             // TxtBxAddrss
             // 
             this.TxtBxAddrss.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.TxtBxAddrss.Enabled = false;
             this.TxtBxAddrss.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TxtBxAddrss.Location = new System.Drawing.Point(582, 376);
             this.TxtBxAddrss.Multiline = true;
@@ -201,6 +205,7 @@
             // TxtBxCity
             // 
             this.TxtBxCity.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.TxtBxCity.Enabled = false;
             this.TxtBxCity.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TxtBxCity.Location = new System.Drawing.Point(582, 313);
             this.TxtBxCity.Name = "TxtBxCity";
@@ -210,6 +215,7 @@
             // TxtBxEmail
             // 
             this.TxtBxEmail.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.TxtBxEmail.Enabled = false;
             this.TxtBxEmail.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TxtBxEmail.Location = new System.Drawing.Point(122, 372);
             this.TxtBxEmail.Name = "TxtBxEmail";
@@ -219,6 +225,7 @@
             // TxtBxName
             // 
             this.TxtBxName.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.TxtBxName.Enabled = false;
             this.TxtBxName.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TxtBxName.Location = new System.Drawing.Point(122, 200);
             this.TxtBxName.Name = "TxtBxName";
@@ -246,7 +253,7 @@
             this.BtnDelete.Font = new System.Drawing.Font("Faustina", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnDelete.ForeColor = System.Drawing.Color.Sienna;
             this.BtnDelete.Image = ((System.Drawing.Image)(resources.GetObject("BtnDelete.Image")));
-            this.BtnDelete.Location = new System.Drawing.Point(272, 576);
+            this.BtnDelete.Location = new System.Drawing.Point(284, 576);
             this.BtnDelete.Name = "BtnDelete";
             this.BtnDelete.Size = new System.Drawing.Size(150, 47);
             this.BtnDelete.TabIndex = 3;
@@ -259,6 +266,7 @@
             // MTBPhnNum
             // 
             this.MTBPhnNum.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.MTBPhnNum.Enabled = false;
             this.MTBPhnNum.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MTBPhnNum.Location = new System.Drawing.Point(122, 313);
             this.MTBPhnNum.Mask = "0000000000";

@@ -65,7 +65,7 @@
             this.TSMExit});
             this.MenuStrip1.Location = new System.Drawing.Point(0, 0);
             this.MenuStrip1.Name = "MenuStrip1";
-            this.MenuStrip1.Size = new System.Drawing.Size(1078, 102);
+            this.MenuStrip1.Size = new System.Drawing.Size(1078, 104);
             this.MenuStrip1.TabIndex = 0;
             // 
             // TSMArrow
@@ -74,7 +74,7 @@
             this.TSMArrow.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             this.TSMArrow.Image = ((System.Drawing.Image)(resources.GetObject("TSMArrow.Image")));
             this.TSMArrow.Name = "TSMArrow";
-            this.TSMArrow.Size = new System.Drawing.Size(40, 98);
+            this.TSMArrow.Size = new System.Drawing.Size(40, 100);
             this.TSMArrow.Click += new System.EventHandler(this.TSMArrow_Click);
             // 
             // TSMDonors
@@ -89,7 +89,7 @@
             this.TSMDonors.Image = ((System.Drawing.Image)(resources.GetObject("TSMDonors.Image")));
             this.TSMDonors.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.TSMDonors.Name = "TSMDonors";
-            this.TSMDonors.Size = new System.Drawing.Size(172, 98);
+            this.TSMDonors.Size = new System.Drawing.Size(172, 100);
             this.TSMDonors.Text = "Blood Donors";
             this.TSMDonors.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
             // 
@@ -138,7 +138,7 @@
             this.TSMSearchDonors.Image = ((System.Drawing.Image)(resources.GetObject("TSMSearchDonors.Image")));
             this.TSMSearchDonors.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.TSMSearchDonors.Name = "TSMSearchDonors";
-            this.TSMSearchDonors.Size = new System.Drawing.Size(183, 98);
+            this.TSMSearchDonors.Size = new System.Drawing.Size(183, 100);
             this.TSMSearchDonors.Text = "Search Donors";
             this.TSMSearchDonors.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
             // 
@@ -170,7 +170,7 @@
             this.TSMBloodStock.Image = ((System.Drawing.Image)(resources.GetObject("TSMBloodStock.Image")));
             this.TSMBloodStock.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.TSMBloodStock.Name = "TSMBloodStock";
-            this.TSMBloodStock.Size = new System.Drawing.Size(154, 98);
+            this.TSMBloodStock.Size = new System.Drawing.Size(154, 100);
             this.TSMBloodStock.Text = "Blood Stock";
             this.TSMBloodStock.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
             // 
@@ -210,7 +210,7 @@
             this.TSMExit.Image = ((System.Drawing.Image)(resources.GetObject("TSMExit.Image")));
             this.TSMExit.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.TSMExit.Name = "TSMExit";
-            this.TSMExit.Size = new System.Drawing.Size(80, 98);
+            this.TSMExit.Size = new System.Drawing.Size(80, 100);
             this.TSMExit.Text = "Exit";
             this.TSMExit.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
             // 
@@ -233,15 +233,14 @@
             // Lb1
             // 
             this.Lb1.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.Lb1.AutoSize = true;
             this.Lb1.BackColor = System.Drawing.Color.Sienna;
-            this.Lb1.Font = new System.Drawing.Font("Faustina", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lb1.Font = new System.Drawing.Font("Faustina", 9F, System.Drawing.FontStyle.Bold);
             this.Lb1.ForeColor = System.Drawing.Color.Ivory;
             this.Lb1.Location = new System.Drawing.Point(523, 580);
             this.Lb1.Name = "Lb1";
-            this.Lb1.Size = new System.Drawing.Size(57, 25);
+            this.Lb1.Size = new System.Drawing.Size(60, 25);
             this.Lb1.TabIndex = 4;
-            this.Lb1.Text = "User:";
+            this.Lb1.Text = "User :";
             this.Lb1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // LbUser
@@ -249,7 +248,7 @@
             this.LbUser.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.LbUser.AutoSize = true;
             this.LbUser.BackColor = System.Drawing.Color.Sienna;
-            this.LbUser.Font = new System.Drawing.Font("Faustina", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LbUser.Font = new System.Drawing.Font("Faustina", 10F, System.Drawing.FontStyle.Bold);
             this.LbUser.ForeColor = System.Drawing.Color.Ivory;
             this.LbUser.Location = new System.Drawing.Point(585, 580);
             this.LbUser.Name = "LbUser";

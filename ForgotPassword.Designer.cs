@@ -110,7 +110,6 @@
             this.BtnResetPswrd.AutoSize = true;
             this.BtnResetPswrd.BackColor = System.Drawing.Color.Ivory;
             this.BtnResetPswrd.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.BtnResetPswrd.Enabled = false;
             this.BtnResetPswrd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnResetPswrd.Font = new System.Drawing.Font("Faustina", 12F, System.Drawing.FontStyle.Bold);
             this.BtnResetPswrd.ForeColor = System.Drawing.Color.Sienna;
@@ -163,7 +162,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.TxtBxUsername);
             this.Controls.Add(this.PicBxFrgtPswrd);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.MaximizeBox = false;
             this.Name = "FormFrgtPswrd";
             this.Text = "ForgotPassword";

@@ -104,5 +104,10 @@ namespace BloodBankMS
             FormFrgtPswrd frgtpswrd = new FormFrgtPswrd();
             frgtpswrd.ShowDialog();
         }
+
+        private void FormLogin_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.ExitThread();
+        }
     }
 }
